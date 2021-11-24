@@ -36,7 +36,8 @@ const Navber = () => {
                         user?.email ?
 
                             <Box>
-                                <NavLink style={{ textDecoration: 'none', color: 'green' }} to="/profile">
+                                
+                                <NavLink style={{ textDecoration: 'none', color: 'white' }} to="/profile">
                                     <Button color="inherit">My Profile</Button>
                                 </NavLink>
 
