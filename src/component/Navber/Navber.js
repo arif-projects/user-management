@@ -37,7 +37,7 @@ const Navber = () => {
 
                             <Box>
                                 
-                                <NavLink style={{ textDecoration: 'none', color: 'white' }} to="/profile">
+                                <NavLink style={{ textDecoration: 'none', color: 'Green' }} to="/profile">
                                     <Button color="inherit">My Profile</Button>
                                 </NavLink>
 
@@ -45,7 +45,7 @@ const Navber = () => {
                             </Box>
 
                             :
-                            <NavLink style={{ textDecoration: 'none', color: 'white' }} to="/login">
+                            <NavLink style={{ textDecoration: 'none', color: 'green' }} to="/login">
                                 <Button color="inherit">Login</Button>
                             </NavLink>
                     }
